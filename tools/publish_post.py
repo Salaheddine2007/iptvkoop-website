@@ -114,8 +114,12 @@ def main():
     if os.path.exists(page_path(a.slug)):
         sys.exit(f"ERROR: /{a.slug}/ already exists — pick the next keyword")
     article = open(a.article, encoding="utf-8").read().strip()
-    if len(re.sub(r"<[^>]+>", " ", article).split()) < 300:
-        sys.exit("ERROR: article.html looks empty/too short")
+    n_words = len(re.sub(r"<[^>]+>", " ", article).split())
+    min_words = int(site.get("min_words", 0))
+    if n_words < max(300, min_words):
+        sys.exit(f"ERROR: article has {n_words} words, minimum is {max(300, min_words)}. "
+                 "Expand the article (more depth per section, more H3 subsections, longer FAQ answers) "
+                 "in the same file and run this command again.")
 
     url = f"{site['base']}/{a.slug}/"
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
