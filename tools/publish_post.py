@@ -125,6 +125,41 @@ def main():
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     title, mt = html.escape(a.title, quote=True), html.escape(a.meta_title, quote=True)
     md = html.escape(a.meta_desc, quote=True)
+    prev = posts[-1] if posts else None
+
+    sys.path.insert(0, TOOLS)
+    import render_post as R
+    if R.layout_available():
+        # homepage-styled layout: write the SEO head ourselves and render the page
+        ld, n_faq = schema(site, url, a.title, a.meta_desc, now, article)
+        seo = "\n".join([
+            f"<title>{mt}</title>",
+            f'<meta name="description" content="{md}"/>',
+            '<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>',
+            f'<link rel="canonical" href="{url}" />',
+            f'<meta property="og:locale" content="{site["lang"].replace("-", "_")}" />',
+            '<meta property="og:type" content="article" />',
+            f'<meta property="og:title" content="{mt}" />',
+            f'<meta property="og:description" content="{md}" />',
+            f'<meta property="og:url" content="{url}" />',
+            f'<meta property="og:site_name" content="{html.escape(site["name"])}" />',
+            f'<meta property="article:published_time" content="{now}" />',
+            f'<meta property="article:modified_time" content="{now}" />',
+            '<meta name="twitter:card" content="summary_large_image" />',
+            f'<meta name="twitter:title" content="{mt}" />',
+            f'<meta name="twitter:description" content="{md}" />',
+            ld])
+        doc = R.render(seo, a.title, now, article, prev=prev, lang=site["lang"][:2])
+        os.makedirs(os.path.dirname(page_path(a.slug)), exist_ok=True)
+        open(page_path(a.slug), "w", encoding="utf-8").write(doc)
+        if prev and os.path.exists(page_path(prev["slug"])):
+            p = open(page_path(prev["slug"]), encoding="utf-8").read()
+            before = posts[-2] if len(posts) > 1 else None
+            p = R.replace_nav(p, R.nav_html(before, {"url": url, "title": a.title}, site["lang"][:2]))
+            open(page_path(prev["slug"]), "w", encoding="utf-8").write(p)
+        finish(site, posts, a, url, now, article, n_faq, prev)
+        return
+
     doc = open(os.path.join(TOOLS, "post_template.html"), encoding="utf-8").read()
 
     # ---- head: SEO tags (what Rank Math generated) ----
@@ -161,7 +196,6 @@ def main():
     if not body:
         sys.exit("ERROR: template has no entry-content block")
     doc = doc[: body[1]] + "\n" + article + "\n" + doc[body[2]:]
-    prev = posts[-1] if posts else None
     doc = replace_nav(doc, nav_html(prev=prev))
 
     os.makedirs(os.path.dirname(page_path(a.slug)), exist_ok=True)
@@ -176,8 +210,10 @@ def main():
         if p2 == p:  # template had no nav block: append one after the article
             p2 = p.replace("</article>", "</article>" + nav_html(prev=before, nxt={"url": url, "title": a.title}), 1)
         open(page_path(prev["slug"]), "w", encoding="utf-8").write(p2)
+    finish(site, posts, a, url, now, article, n_faq, prev)
 
-    # ---- sitemap + posts registry ----
+def finish(site, posts, a, url, now, article, n_faq, prev):
+    """sitemap + posts registry + report (shared by both layouts)"""
     sm_path = os.path.join(REPO, "sitemap.xml")
     sm = open(sm_path, encoding="utf-8").read()
     if url not in sm:
