@@ -1,11 +1,5 @@
 [
 {
-"keyword": "iptv smarters player",
-"slug": "iptv-smarters-player",
-"volume": 720,
-"intent": "Informational, Commercial"
-},
-{
 "keyword": "iptv aliexpress",
 "slug": "iptv-aliexpress",
 "volume": 590,
@@ -78,12 +72,6 @@
 "intent": "Navigational, Transactional"
 },
 {
-"keyword": "iptv experts",
-"slug": "iptv-experts",
-"volume": 110,
-"intent": "Informational, Commercial"
-},
-{
 "keyword": "iptv alibaba",
 "slug": "iptv-alibaba",
 "volume": 110,
@@ -124,12 +112,6 @@
 "slug": "iptv-pakket",
 "volume": 90,
 "intent": "Commercial"
-},
-{
-"keyword": "rapid iptv",
-"slug": "rapid-iptv",
-"volume": 90,
-"intent": "Informational, Transactional"
 },
 {
 "keyword": "iptv kastje bol",
@@ -174,12 +156,6 @@
 "intent": "Informational, Commercial"
 },
 {
-"keyword": "dutchiptv",
-"slug": "dutchiptv",
-"volume": 70,
-"intent": "Navigational, Transactional"
-},
-{
 "keyword": "android tv box for iptv",
 "slug": "android-tv-box-for-iptv",
 "volume": 50,
@@ -206,12 +182,6 @@
 {
 "keyword": "iptv smarters pro lite",
 "slug": "iptv-smarters-pro-lite",
-"volume": 50,
-"intent": "Commercial"
-},
-{
-"keyword": "besteiptv",
-"slug": "besteiptv",
 "volume": 50,
 "intent": "Commercial"
 },
@@ -285,12 +255,6 @@
 "keyword": "iptv",
 "slug": "iptv",
 "volume": 40500,
-"intent": "Informational"
-},
-{
-"keyword": "ip tv",
-"slug": "ip-tv",
-"volume": 6600,
 "intent": "Informational"
 },
 {
@@ -588,12 +552,6 @@
 "intent": "Informational"
 },
 {
-"keyword": "imedi iptv ge",
-"slug": "imedi-iptv-ge",
-"volume": 170,
-"intent": "Navigational"
-},
-{
 "keyword": "iptv pro stream player",
 "slug": "iptv-pro-stream-player",
 "volume": 170,
@@ -686,12 +644,6 @@
 {
 "keyword": "iptv smarter player",
 "slug": "iptv-smarter-player",
-"volume": 140,
-"intent": "Informational"
-},
-{
-"keyword": "beste ip tv",
-"slug": "beste-ip-tv",
 "volume": 140,
 "intent": "Informational"
 },
@@ -1000,12 +952,6 @@
 "slug": "beste-iptv-player-android",
 "volume": 70,
 "intent": "Informational"
-},
-{
-"keyword": "hakuna iptv reviews",
-"slug": "hakuna-iptv-reviews",
-"volume": 70,
-"intent": ""
 },
 {
 "keyword": "iptv on vlc",
@@ -1356,12 +1302,6 @@
 "intent": "Informational"
 },
 {
-"keyword": "iptv streamplayer",
-"slug": "iptv-streamplayer",
-"volume": 50,
-"intent": "Informational"
-},
-{
 "keyword": "iptv downloaden",
 "slug": "iptv-downloaden",
 "volume": 50,
@@ -1542,12 +1482,6 @@
 "intent": ""
 },
 {
-"keyword": "is hakuna iptv legaal",
-"slug": "is-hakuna-iptv-legaal",
-"volume": 40,
-"intent": ""
-},
-{
 "keyword": "glory iptv",
 "slug": "glory-iptv",
 "volume": 40,
@@ -1620,12 +1554,6 @@
 "intent": ""
 },
 {
-"keyword": "tivi one iptv",
-"slug": "tivi-one-iptv",
-"volume": 40,
-"intent": "Informational"
-},
-{
 "keyword": "usb stick iptv",
 "slug": "usb-stick-iptv",
 "volume": 40,
@@ -1694,12 +1622,6 @@
 {
 "keyword": "wat is iptv en hoe werkt het",
 "slug": "wat-is-iptv-en-hoe-werkt-het",
-"volume": 40,
-"intent": ""
-},
-{
-"keyword": "iplayer iptv",
-"slug": "iplayer-iptv",
 "volume": 40,
 "intent": ""
 },
@@ -1956,12 +1878,6 @@
 "intent": "Navigational"
 },
 {
-"keyword": "diamondtv iptv",
-"slug": "diamondtv-iptv",
-"volume": 30,
-"intent": "Navigational"
-},
-{
 "keyword": "germany servers iptv",
 "slug": "germany-servers-iptv",
 "volume": 30,
@@ -2098,12 +2014,6 @@
 "slug": "wave-iptv",
 "volume": 30,
 "intent": ""
-},
-{
-"keyword": "beste ip tv nederland",
-"slug": "beste-ip-tv-nederland",
-"volume": 30,
-"intent": "Informational"
 },
 {
 "keyword": "best iptv player for firestick 2025",
@@ -3330,12 +3240,6 @@
 "intent": ""
 },
 {
-"keyword": "hakuna tv iptv",
-"slug": "hakuna-tv-iptv",
-"volume": 20,
-"intent": ""
-},
-{
 "keyword": "hangi iptv uygulaması iyi",
 "slug": "hangi-iptv-uygulamas-iyi",
 "volume": 20,
@@ -3674,12 +3578,6 @@
 {
 "keyword": "iptv albania",
 "slug": "iptv-albania",
-"volume": 20,
-"intent": ""
-},
-{
-"keyword": "iptv ali express",
-"slug": "iptv-ali-express",
 "volume": 20,
 "intent": ""
 },
@@ -7260,12 +7158,6 @@
 "intent": ""
 },
 {
-"keyword": "rapid iptv org",
-"slug": "rapid-iptv-org",
-"volume": 20,
-"intent": ""
-},
-{
 "keyword": "raspberry iptv",
 "slug": "raspberry-iptv",
 "volume": 20,
@@ -7668,12 +7560,6 @@
 "intent": ""
 },
 {
-"keyword": "smartone-iptv/activation",
-"slug": "smartone-iptv-activation",
-"volume": 20,
-"intent": ""
-},
-{
 "keyword": "snappier iptv review",
 "slug": "snappier-iptv-review",
 "volume": 20,
@@ -7778,12 +7664,6 @@
 {
 "keyword": "stream format iptv smarters pro",
 "slug": "stream-format-iptv-smarters-pro",
-"volume": 20,
-"intent": ""
-},
-{
-"keyword": "stream4k iptv",
-"slug": "stream4k-iptv",
 "volume": 20,
 "intent": ""
 },
@@ -9054,12 +8934,6 @@
 "intent": ""
 },
 {
-"keyword": "duplex play iptv",
-"slug": "duplex-play-iptv",
-"volume": 10,
-"intent": ""
-},
-{
 "keyword": "eagle cinema programmazione iptv",
 "slug": "eagle-cinema-programmazione-iptv",
 "volume": 10,
@@ -9236,12 +9110,6 @@
 {
 "keyword": "google chrome iptv player",
 "slug": "google-chrome-iptv-player",
-"volume": 10,
-"intent": ""
-},
-{
-"keyword": "greatest iptv",
-"slug": "greatest-iptv",
 "volume": 10,
 "intent": ""
 },
@@ -10662,12 +10530,6 @@
 "intent": ""
 },
 {
-"keyword": "iptv smarters firetv",
-"slug": "iptv-smarters-firetv",
-"volume": 10,
-"intent": ""
-},
-{
 "keyword": "iptv smarters hardware or software decoder",
 "slug": "iptv-smarters-hardware-or-software-decoder",
 "volume": 10,
@@ -11718,12 +11580,6 @@
 "intent": ""
 },
 {
-"keyword": "rapid iptv swiss",
-"slug": "rapid-iptv-swiss",
-"volume": 10,
-"intent": ""
-},
-{
 "keyword": "raspberry pi 4 iptv",
 "slug": "raspberry-pi-4-iptv",
 "volume": 10,
@@ -12378,12 +12234,6 @@
 "intent": ""
 },
 {
-"keyword": "xstream iptv",
-"slug": "xstream-iptv",
-"volume": 10,
-"intent": ""
-},
-{
 "keyword": "xtream codes iptv app",
 "slug": "xtream-codes-iptv-app",
 "volume": 10,
@@ -12698,12 +12548,6 @@
 {
 "keyword": "5g premium iptv",
 "slug": "5g-premium-iptv",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "60 fps iptv",
-"slug": "60-fps-iptv",
 "volume": 0,
 "intent": ""
 },
@@ -13290,12 +13134,6 @@
 "intent": ""
 },
 {
-"keyword": "al kaicer iptv",
-"slug": "al-kaicer-iptv",
-"volume": 0,
-"intent": ""
-},
-{
 "keyword": "alb kanale iptv",
 "slug": "alb-kanale-iptv",
 "volume": 0,
@@ -13580,12 +13418,6 @@
 {
 "keyword": "amiko impulse wifi iptv",
 "slug": "amiko-impulse-wifi-iptv",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "amiko mirax 4200 linux iptv box",
-"slug": "amiko-mirax-4200-linux-iptv-box",
 "volume": 0,
 "intent": ""
 },
@@ -13904,12 +13736,6 @@
 {
 "keyword": "app iptv compatible chromecast",
 "slug": "app-iptv-compatible-chromecast",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "app iptv firestick",
-"slug": "app-iptv-firestick",
 "volume": 0,
 "intent": ""
 },
@@ -14802,12 +14628,6 @@
 "intent": ""
 },
 {
-"keyword": "bbox iptv",
-"slug": "bbox-iptv",
-"volume": 0,
-"intent": ""
-},
-{
 "keyword": "beadt iptv",
 "slug": "beadt-iptv",
 "volume": 0,
@@ -14972,24 +14792,6 @@
 {
 "keyword": "bergen film iptv",
 "slug": "bergen-film-iptv",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "bes iptv 4.0",
-"slug": "bes-iptv-4-0",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "bes iptv not working",
-"slug": "bes-iptv-not-working",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "bes iptv repository 2018",
-"slug": "bes-iptv-repository-2018",
 "volume": 0,
 "intent": ""
 },
@@ -16712,12 +16514,6 @@
 {
 "keyword": "blue max iptv",
 "slug": "blue-max-iptv",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "bluemax iptv",
-"slug": "bluemax-iptv",
 "volume": 0,
 "intent": ""
 },
@@ -21138,12 +20934,6 @@
 "intent": ""
 },
 {
-"keyword": "fcola iptv",
-"slug": "fcola-iptv",
-"volume": 0,
-"intent": ""
-},
-{
 "keyword": "felexi co iptv",
 "slug": "felexi-co-iptv",
 "volume": 0,
@@ -21438,12 +21228,6 @@
 "intent": ""
 },
 {
-"keyword": "fluxustv iptv",
-"slug": "fluxustv-iptv",
-"volume": 0,
-"intent": ""
-},
-{
 "keyword": "flynet iptv",
 "slug": "flynet-iptv",
 "volume": 0,
@@ -21548,12 +21332,6 @@
 {
 "keyword": "formuler z nano iptv android box",
 "slug": "formuler-z-nano-iptv-android-box",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "formuler z prime iptv wifi",
-"slug": "formuler-z-prime-iptv-wifi",
 "volume": 0,
 "intent": ""
 },
@@ -22040,12 +21818,6 @@
 {
 "keyword": "genexis iptv wifi archer",
 "slug": "genexis-iptv-wifi-archer",
-"volume": 0,
-"intent": ""
-},
-{
-"keyword": "geniptv vs rapid iptv",
-"slug": "geniptv-vs-rapid-iptv",
 "volume": 0,
 "intent": ""
 },
